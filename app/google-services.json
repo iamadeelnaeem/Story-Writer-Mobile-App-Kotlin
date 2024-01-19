@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "132651084687",
+    "firebase_url": "https://story-writter-99f2c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "story-writter-99f2c",
+    "storage_bucket": "story-writter-99f2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132651084687:android:9135375a93ae3ac5f479fa",
+        "android_client_info": {
+          "package_name": "aa.studio.storywritter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbME365p5WNVhoXuSX6QBfDTqD24JCBkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

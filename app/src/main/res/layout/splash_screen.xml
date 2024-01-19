@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Set the background -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_background">
+
+        <!-- Place the TextView at the top-center of the RelativeLayout -->
+        <TextView
+            android:id="@+id/appNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Story Writer"
+            android:textColor="#FFFFFF"
+            android:textSize="38sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

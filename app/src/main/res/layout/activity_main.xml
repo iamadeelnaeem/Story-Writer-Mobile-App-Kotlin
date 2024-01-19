@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write a Title:"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="9dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <EditText
+        android:id="@+id/titleDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title/Description"
+        android:layout_marginTop="66dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/generateStoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleDescriptionEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Generate Story" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/generateStoryButton"
+        android:layout_marginTop="18dp">
+
+        <TextView
+            android:id="@+id/storyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp" />
+    </ScrollView>
+
+</RelativeLayout>
+
